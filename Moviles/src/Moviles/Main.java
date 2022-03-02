@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 public class Main {
 
+	String lop;
 	Movil telefono;
 	
 	ArrayList<Movil> lista = new ArrayList<Movil>();
