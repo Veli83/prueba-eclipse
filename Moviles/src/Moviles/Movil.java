@@ -73,7 +73,7 @@ public class Movil {
 
 		
 		//método para pasar las mayúsculas a minúsculas
-			public static String enMinuscula(String mensaje) {
+		public String enMinuscula(String mensaje) {
 				
 				//metodo que pasa las mayúsculas a minúsculas
 				String mensajeDevolver = mensaje.toLowerCase();
@@ -83,7 +83,7 @@ public class Movil {
 			}
 		
 		//método para quitar las tildes
-		public static String sinTilde (String mensaje) {
+		public String sinTilde (String mensaje) {
 			
 			//variables
 			String tilde = "ÁáÉéÍíÓóÚú";
@@ -109,7 +109,7 @@ public class Movil {
 		}
 		
 		//método para sustituir el espacio en blanco por coma y punto
-		public static String puntoComa (String mensaje) {
+		public String puntoComa (String mensaje) {
 			
 			//método replace para cambiar un carácter por otro
 			String mensajeDevolver = mensaje.replace(" ", ";");
@@ -119,7 +119,7 @@ public class Movil {
 		}
 		
 		//método para reducir los espacios en blanco a uno solo
-		public static String soloUnEspacio(String mensaje) {
+		public String soloUnEspacio(String mensaje) {
 			
 			//variables
 			String mensajeDevolver="";
